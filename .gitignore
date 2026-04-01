@@ -1,0 +1,36 @@
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database & Configuration
+*.sql
+.env
+config.php
+database.php
+
+# Build & Dependencies
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+
+# Logs
+*.log
+error_log
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Temporary Files
+*.tmp
+*.bak
+~*
+
+# Cache
+.cache/
+*.cache
