@@ -702,29 +702,56 @@
 				{
 					die("Connection failed. Check DB settings in db_connect.php");
 				}
-				
-				$sql="SELECT `Vehicle`,`Date` FROM `package`";
-				$result=mysqli_query($conn,$sql);
-				$rowsnum=mysqli_num_rows($result);
-				$i=0;
-				if ($rowsnum > 0) 
+
+				$vehicle = $_POST["vehicle"] ?? "";
+				$date = $_POST["date"] ?? "";
+				$isBooked = false;
+
+				$checkSql = "SELECT 1 FROM `package` WHERE `Vehicle` = ? AND `Date` = ? LIMIT 1";
+				$checkStmt = mysqli_prepare($conn, $checkSql);
+				if ($checkStmt)
 				{
-				  while($row = mysqli_fetch_assoc($result)) 
-				  {
-						if($row["Vehicle"]==$_POST["vehicle"] && $row["Date"]==$_POST["date"])
-						{
-							break;
-						}
-						$i++;
-				  }
-				} 
-				if($i==$rowsnum)
+					mysqli_stmt_bind_param($checkStmt, "ss", $vehicle, $date);
+					mysqli_stmt_execute($checkStmt);
+					mysqli_stmt_store_result($checkStmt);
+					$isBooked = mysqli_stmt_num_rows($checkStmt) > 0;
+					mysqli_stmt_close($checkStmt);
+				}
+
+				if(!$isBooked)
 				{
-					$image = addslashes(file_get_contents($_FILES['license']['tmp_name']));
-					$sql = "INSERT INTO package(Name,Email,Phone,Message,Subject,Vehicle,Amount,Date,License) VALUES ('$_POST[name]','$_POST[email]','$_POST[phone]','$_POST[message]','$_POST[subject]','$_POST[vehicle]','$_POST[amount]','$_POST[date]','{$image}')";
-					if (!mysqli_query($conn, $sql))
+					$image = "";
+					if (isset($_FILES['license']) && isset($_FILES['license']['tmp_name']) && is_uploaded_file($_FILES['license']['tmp_name']))
 					{
-						echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+						$imageData = file_get_contents($_FILES['license']['tmp_name']);
+						if ($imageData !== false)
+						{
+							$image = $imageData;
+						}
+					}
+
+					$insertSql = "INSERT INTO package(Name,Email,Phone,Message,Subject,Vehicle,Amount,Date,License) VALUES (?,?,?,?,?,?,?,?,?)";
+					$insertStmt = mysqli_prepare($conn, $insertSql);
+					if ($insertStmt)
+					{
+						mysqli_stmt_bind_param(
+							$insertStmt,
+							"sssssssss",
+							$_POST["name"],
+							$_POST["email"],
+							$_POST["phone"],
+							$_POST["message"],
+							$_POST["subject"],
+							$vehicle,
+							$_POST["amount"],
+							$date,
+							$image
+						);
+						if (!mysqli_stmt_execute($insertStmt))
+						{
+							echo "Error while saving booking.";
+						}
+						mysqli_stmt_close($insertStmt);
 					}
 					echo "<script>Location();ClearTable();</script>";
 				}

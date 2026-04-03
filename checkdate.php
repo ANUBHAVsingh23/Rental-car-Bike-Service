@@ -1,6 +1,6 @@
 <?php
-	$text=$_GET["text"];
-	$date=$_GET["date"];
+	$text = $_GET["text"] ?? "";
+	$date = $_GET["date"] ?? "";
 				require_once __DIR__ . "/db_connect.php";
 				$conn = get_db_connection();
 				if (!$conn) 
@@ -8,23 +8,20 @@
 					echo 1;
 					exit;
 				}
-				
-				$sql="SELECT `Vehicle`,`Date` FROM `package`";
-				$result=mysqli_query($conn,$sql);
-				$rowsnum=mysqli_num_rows($result);
-				$i=0;
-				if ($rowsnum > 0) 
+
+				$sql = "SELECT 1 FROM `package` WHERE `Vehicle` = ? AND `Date` = ? LIMIT 1";
+				$stmt = mysqli_prepare($conn, $sql);
+				$isBooked = true;
+				if ($stmt)
 				{
-				  while($row = mysqli_fetch_assoc($result)) 
-				  {
-						if($row["Vehicle"]==$text && $row["Date"]==$date)
-						{
-							break;
-						}
-						$i++;
-				  }
-				} 
-				if($i==$rowsnum)
+					mysqli_stmt_bind_param($stmt, "ss", $text, $date);
+					mysqli_stmt_execute($stmt);
+					mysqli_stmt_store_result($stmt);
+					$isBooked = mysqli_stmt_num_rows($stmt) > 0;
+					mysqli_stmt_close($stmt);
+				}
+
+				if(!$isBooked)
 				{
 					echo 0;
 				}

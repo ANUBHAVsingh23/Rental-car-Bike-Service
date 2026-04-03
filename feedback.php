@@ -679,10 +679,16 @@
 				{
 					die("Connection failed. Check DB settings in db_connect.php");
 				}
-				$sql = "INSERT INTO feedback(Feedback) VALUES ('$_POST[feedback]')";
-				if (!mysqli_query($conn, $sql))
+				$sql = "INSERT INTO feedback(Feedback) VALUES (?)";
+				$stmt = mysqli_prepare($conn, $sql);
+				if ($stmt)
 				{
-					echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+					mysqli_stmt_bind_param($stmt, "s", $_POST["feedback"]);
+					if (!mysqli_stmt_execute($stmt))
+					{
+						echo "Error while saving feedback.";
+					}
+					mysqli_stmt_close($stmt);
 				}
 				mysqli_close($conn);
 			}
