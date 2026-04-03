@@ -1,16 +1,12 @@
 <?php
 	$text=$_GET["text"];
 	$date=$_GET["date"];
-				$servername = "localhost";
-				$username = "Daniel Davidraj";
-				$password = "password";
-				$dbname = "daniel davidraj";
-				// Create connection
-				$conn = mysqli_connect($servername,$username,$password,$dbname);
-				// Check connection
+				require_once __DIR__ . "/db_connect.php";
+				$conn = get_db_connection();
 				if (!$conn) 
 				{
-					die("Connection failed: " . mysqli_connect_error());
+					echo 1;
+					exit;
 				}
 				
 				$sql="SELECT `Vehicle`,`Date` FROM `package`";

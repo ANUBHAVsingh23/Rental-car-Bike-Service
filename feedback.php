@@ -673,16 +673,11 @@
 		<?php
 			if(isset($_POST["submit"]) && (!empty($_POST["feedback"])) )
 			{
-				$servername = "localhost";
-				$username = "Daniel Davidraj";
-				$password = "password";
-				$dbname = "daniel davidraj";
-				// Create connection
-				$conn = mysqli_connect($servername,$username,$password,$dbname);
-				// Check connection
+				require_once __DIR__ . "/db_connect.php";
+				$conn = get_db_connection();
 				if (!$conn) 
 				{
-					die("Connection failed: " . mysqli_connect_error());
+					die("Connection failed. Check DB settings in db_connect.php");
 				}
 				$sql = "INSERT INTO feedback(Feedback) VALUES ('$_POST[feedback]')";
 				if (!mysqli_query($conn, $sql))
