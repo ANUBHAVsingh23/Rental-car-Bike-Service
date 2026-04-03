@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Home Page</title> 
-		<link rel = "icon" type = "image/png" href = "images/wheelzonrent-logo.png">
+		<link rel = "icon" type = "image/png" href = "images/safar-rentals-logo.png">
 		<link rel="stylesheet" href="poppins.css" type="text/css" media="all">
 		<link rel="stylesheet" href="montserrat.css" type="text/css" media="all">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -410,10 +410,10 @@
 	</head>
 	<body>
 		<div class="up" id="up">
-			<div class="logo"><img src="images/wheelzonrent-logo.png" height="100%" width="9.7%" style="float:left;margin:-1.2% 0 0 6.5%;">
+			<div class="logo"><img src="images/safar-rentals-logo.png" height="100%" width="9.7%" style="float:left;margin:-1.2% 0 0 6.5%;">
 			<img height="25%" width="1.6%" src="images/phone.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;+91-7380718141&emsp;</font>
 			<img height="21%" width="1.9%" src="images/message.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;singh.anubhav3945@gmail.com</font></div>
-			<div class="logo1"><center><img  src="images/wheelzonrent-logo.png" height="50%" width="30%"></center>
+			<div class="logo1"><center><img  src="images/safar-rentals-logo.png" height="50%" width="30%"></center>
 					<div class="call"><img height="25%" width="2.5%" src="images/phone.png" style="height:auto;"><font>+91-7380718141&emsp;</font></div>
 					<div class="mail"><img height="21%" width="2.5%" src="images/message.png" style="height:auto;"><font>&ensp;singh.anubhav3945@gmail.com</font></div></div>
 			<nav>
@@ -495,7 +495,7 @@
 				}
 			}
 		</script>
-		<div style="text-align:center;padding:1% 0 5% 0"><img src="images/wheelzonrent-logo.png" style="height:auto;" height="25%" width="25%"></div>
+		<div style="text-align:center;padding:1% 0 5% 0"><img src="images/safar-rentals-logo.png" style="height:auto;" height="25%" width="25%"></div>
 		<div>
 		<h1 style="font-size:2vw;color:#292929;margin:3% 0 0 28%;">&lt;</h1>
 		<hr align="left" width="9%" color="#dddddd" style="margin:-1.3% 0 0 32%;">
@@ -572,7 +572,7 @@
 				<tr>
 					<td>
 						<img src="images/carp.png" style="float:left;" style="height:auto;"><h1 style="font-size:1.4vw;color:black;">CAR RENTAL SERVICE</h1>
-						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">wheelzonrent offers to make it easy for clients to get the right car at
+						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Safar Rentals offers to make it easy for clients to get the right car at
 							 the right price at the right time. If you are looking for car rental service in Delhi/India or minibusses hire 
 							 services, then our company is the right option for you. Get the best deal on booking of luxury car and coaches in Delhi.</h3>
 						<a href="rental.php"  style="text-decoration:none;"><h3 class="readmore">READ MORE</h3></a>
@@ -586,8 +586,8 @@
 					</td>
 					<td>
 						<img src="images/marriage.png" style="float:left;"><h1 style="font-size:1.4vw;color:black;">WEDDING CAR RENTAL</h1>
-						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Wheelzonrent is emerging car rental company in delhi/india . We have been known in industry 
-							for our 100% customer satisfaction. We think for a special occasion we need the right car at right prices, wheelzonrent provides 
+						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Safar Rentals is emerging car rental company in delhi/india . We have been known in industry 
+							for our 100% customer satisfaction. We think for a special occasion we need the right car at right prices, Safar Rentals provides 
 							the best car accordingly the customer requirement.</h3>
 						<a href="wed.php" style="text-decoration:none;"><h3 class="readmore">READ MORE</h3></a>
 					</td>
@@ -602,14 +602,14 @@
 					</td>
 					<td>
 						<img src="images/self.png" style="float:left;"><h1 style="font-size:1.4vw;color:black;">SELFDRIVE CAR RENTAL</h1>
-						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Wheelzonrent is a very customer friendly company where customer service and
-							 satisfaction come first. wheelzonrent provides self-driven cars to customers at very convenient prices and gives 
+						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Safar Rentals is a very customer friendly company where customer service and
+							 satisfaction come first. Safar Rentals provides self-driven cars to customers at very convenient prices and gives 
 							 absolutely new and young well-maintained fleet for hassle-free and memorable driving experience.</h3>
 						<a href="self.php" style="text-decoration:none;"><h3 class="readmore">READ MORE</h3></a>
 					</td>
 					<td>
 						<img src="images/one.png" style="float:left;"><h1 style="font-size:1.4vw;color:black;">ONE WAY DROP SERVICE</h1>
-						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Wheelzonrent is providing One Way Drop Services From Delhi / NCR. We offer 
+						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Safar Rentals is providing One Way Drop Services From Delhi / NCR. We offer 
 							to make it easy for clients to get the right car at the right price at the right time. If you are looking for 
 							car rental service in Delhi/India, we are the right choice for you.</h3>
 						<a href="one.php" style="text-decoration:none;"><h3 class="readmore">READ MORE</h3></a>
@@ -636,8 +636,8 @@
 				</tr>
 				<tr bgcolor="#252525">
 					<td class="widget">
-						<p class="text">Wheelzonrent is one of the reputed Travel<br>
-						Company in India.At Wheelzonrent<br>
+						<p class="text">Safar Rentals is one of the reputed Travel<br>
+						Company in India.At Safar Rentals<br>
 						everything we do is about giving you the<br>
 						freedom to discover more.</p>
 					</td>

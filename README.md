@@ -1,6 +1,6 @@
-# Wheelzonrent - Car and Bike Rental Platform
+# Safar Rentals - Car and Bike Rental Platform
 ## Overview
-**Wheelzonrent** is a full-stack web application that enables clients to seamlessly rent cars and bikes online. The platform streamlines the vehicle rental process, allowing users to browse inventory, check availability, and complete bookings with automatic form population and real-time conflict detection.
+**Safar Rentals** is a full-stack web application that enables clients to seamlessly rent cars and bikes online. The platform streamlines the vehicle rental process, allowing users to browse inventory, check availability, and complete bookings with automatic form population and real-time conflict detection.
 
 ### Technology Stack
 - **Frontend:** HTML5, CSS3, JavaScript (with AJAX for real-time validations)

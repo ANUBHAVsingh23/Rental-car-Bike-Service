@@ -2,7 +2,7 @@
 	<head>
         <title>Corporate Car Rental</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel = "icon" type = "image/png" href = "images/wheelzonrent-logo.png">
+		<link rel = "icon" type = "image/png" href = "images/safar-rentals-logo.png">
 		<link rel="stylesheet" href="poppins.css" type="text/css" media="all">
 		<link rel="stylesheet" href="montserrat.css" type="text/css" media="all">
 		<style>
@@ -345,12 +345,12 @@
 	<body>
 		<header>
 		<div class="up">
-		<div class="logo"><img  src="images/wheelzonrent-logo.png" height="100%" width="10%%" style="float:left;margin:-1.2% 0 0 6.5%;">
+		<div class="logo"><img  src="images/safar-rentals-logo.png" height="100%" width="10%%" style="float:left;margin:-1.2% 0 0 6.5%;">
 				<img height="25%" width="1.6%" src="images/phone.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;+91-7305010188&emsp;</font>
-				<img height="21%" width="1.9%" src="images/message.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;Info@wheelzonrent.in</font></div>
-				<div class="logo1"><center><img  src="images/wheelzonrent-logo.png" height="50%" width="30%"></center>
+				<img height="21%" width="1.9%" src="images/message.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;Info@safarrentals.in</font></div>
+				<div class="logo1"><center><img  src="images/safar-rentals-logo.png" height="50%" width="30%"></center>
 					<div class="call"><img height="25%" width="2.5%" src="images/phone.png" style="height:auto;"><font>+91-7305010188&emsp;</font></div>
-					<div class="mail"><img height="21%" width="2.5%" src="images/message.png" style="height:auto;"><font>&ensp;Info@wheelzonrent.in</font></div></div>
+					<div class="mail"><img height="21%" width="2.5%" src="images/message.png" style="height:auto;"><font>&ensp;Info@safarrentals.in</font></div></div>
 			<nav>
 				<ul>
 					<li><a class="navi" href="index.php">Home</a></li>
@@ -392,13 +392,13 @@
         <div class="ccr">
 		<h3 style="font-size:1.8vw;margin:0 0 0 52%;color:black;">CORPORATES</h3>
         <p style="color:grey;font-size:1.2vw;text-align:left;margin:20px 80px 0 52%">
-            Wheelzonrent.in provides <i>Corporate Travel Management</i> or company cars, a concept adopted by a 
+            safarrentals.in provides <i>Corporate Travel Management</i> or company cars, a concept adopted by a 
 			majority of  companies for better cost management for their travel requirements.<br><br>
         </p></div>
 		<div class="ccr1">
 		<h3 style="font-size:1.8vw;color:black;">CORPORATES</h3>
         <p style="color:grey;margin-bottom:10%;">
-            Wheelzonrent.in provides <i>Corporate Travel Management</i> or company cars, a concept adopted by a 
+            safarrentals.in provides <i>Corporate Travel Management</i> or company cars, a concept adopted by a 
 			majority of  companies for better cost management for their travel requirements.<br><br>
 			<b>Commercial Vehicle Leasing In Delhi, Business Car Rentals In Delhi, Corporate Car Rentals In Delhi, 
 			Innova Hire In Delhi.</b>
@@ -417,8 +417,8 @@
 				</tr>
 				<tr bgcolor="#252525">
 					<td class="widget">
-						<p class="text">Wheelzonrent is one of the reputed Travel<br>
-						Company in India.At Wheelzonrent<br>
+						<p class="text">Safar Rentals is one of the reputed Travel<br>
+						Company in India.At Safar Rentals<br>
 						everything we do is about giving you the<br>
 						freedom to discover more.</p>
 					</td>

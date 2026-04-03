@@ -1,7 +1,7 @@
 <html>
 	<head>
         <title>Car Rental Service</title> 
-        <link rel = "icon" type = "image/png" href = "images/wheelzonrent-logo.png">
+        <link rel = "icon" type = "image/png" href = "images/safar-rentals-logo.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="poppins.css" type="text/css" media="all">
 		<link rel="stylesheet" href="montserrat.css" type="text/css" media="all">
@@ -355,12 +355,12 @@
 	<body>
 		<header>
 		<div class="up" id="Up">
-		<div class="logo"><img  src="images/wheelzonrent-logo.png" height="100%" width="10%%" style="float:left;margin:-1.2% 0 0 6.5%;">
+		<div class="logo"><img  src="images/safar-rentals-logo.png" height="100%" width="10%%" style="float:left;margin:-1.2% 0 0 6.5%;">
 				<img height="25%" width="1.6%" src="images/phone.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;+91-7305010188&emsp;</font>
-				<img height="21%" width="1.9%" src="images/message.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;Info@wheelzonrent.in</font></div>
-				<div class="logo1"><center><img  src="images/wheelzonrent-logo.png" height="50%" width="30%"></center>
+				<img height="21%" width="1.9%" src="images/message.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;Info@safarrentals.in</font></div>
+				<div class="logo1"><center><img  src="images/safar-rentals-logo.png" height="50%" width="30%"></center>
 					<div class="call"><img height="25%" width="2.5%" src="images/phone.png" style="height:auto;"><font>+91-7305010188&emsp;</font></div>
-					<div class="mail"><img height="21%" width="2.5%" src="images/message.png" style="height:auto;"><font>&ensp;Info@wheelzonrent.in</font></div></div>
+					<div class="mail"><img height="21%" width="2.5%" src="images/message.png" style="height:auto;"><font>&ensp;Info@safarrentals.in</font></div></div>
 			<nav>
 				<ul>
 					<li><a class="navi" href="index.php">Home</a></li>
@@ -391,7 +391,7 @@
 				</svg>
 				<hr width="10%" color="white" style="margin:-1.15% 0 0 54%">
 				<br>
-            <font>wheelzonrent offers to make it easy for clients to get the right car at right price at the right time.</font>
+            <font>Safar Rentals offers to make it easy for clients to get the right car at right price at the right time.</font>
         </div>
         </header>
         <br><br><br>
@@ -419,21 +419,21 @@
 		<aside class="ccr">
 		<div class="break">&emsp;&emsp;&emsp;&emsp;&emsp;</div>
 		<h1 style="font-size:1.5vw;margin:0 0 0 48%;">CAR AND COACHES RENTAL</h1>
-        <p class="main" style="margin:2% 8% 0 48%;">wheelzonrent offers to make it easy for clients to get the right car at the right price at the right time.<br><br>
+        <p class="main" style="margin:2% 8% 0 48%;">Safar Rentals offers to make it easy for clients to get the right car at the right price at the right time.<br><br>
             If you are looking for car rental service in Delhi/India or minibusses hire services, then our company is the right option for you.<br><br>
             Get the best deal on booking of luxury car and coaches in Delhi.<br><br>
             Book cheap budget tempo traveller in Delhi/India<br><br>
-            wheelzonrent has the large fleet of well-maintained cars and tempo traveler<br><br>
+            Safar Rentals has the large fleet of well-maintained cars and tempo traveler<br><br>
             We assured you the best of our services. Further for more assistance please feel free to call us.
 		</p></aside>
 		<aside class="ccr1">
 		<div class="break">&emsp;&emsp;&emsp;&emsp;&emsp;</div>
 		<h1>CAR AND COACHES RENTAL</h1>
-        <p class="main">wheelzonrent offers to make it easy for clients to get the right car at the right price at the right time.<br><br>
+        <p class="main">Safar Rentals offers to make it easy for clients to get the right car at the right price at the right time.<br><br>
             If you are looking for car rental service in Delhi/India or minibusses hire services, then our company is the right option for you.<br><br>
             Get the best deal on booking of luxury car and coaches in Delhi.<br><br>
             Book cheap budget tempo traveller in Delhi/India<br><br>
-            wheelzonrent has the large fleet of well-maintained cars and tempo traveler<br><br>
+            Safar Rentals has the large fleet of well-maintained cars and tempo traveler<br><br>
             We assured you the best of our services. Further for more assistance please feel free to call us.
 		</p></aside>
 		<p class="main" style="color:black">
@@ -441,7 +441,7 @@
         <b><i><u>Chauffeur Drive in India</u></i></b><br><br>
             The Ultimate In Luxury Service For all Occasions
             Going to a huge business customer Hosting an Important gathering Or on the other hand basically an airplane terminal exchange,
-            wheelzonrent driver drive administration can have any kind of effect when a distinction is required!
+            Safar Rentals driver drive administration can have any kind of effect when a distinction is required!
             Just take a back seat and let our professional chauffeur takes you to wherever you want to go. No more worries about traffic 
             congestion or parking, our chauffeur drive service will get you to your destination relax and on-time.
 		</p><br>
@@ -466,13 +466,13 @@
         <br><br><br>
         Corporate rentals
         <br><br>
-        wheelzonrent can give exceptional rates and rebates to normal customers.
+        Safar Rentals can give exceptional rates and rebates to normal customers.
         <br><br>
         Contact
         <br><br><b>
         Phone Number:<font color="#00afe5"> +91</font> 8384066726
         <br><br>
-        Email Address:<font color="#00afe5"> info@wheelzonrent.in</font>
+        Email Address:<font color="#00afe5"> info@safarrentals.in</font>
         <br><br>
         Reservation Hours: Monday to Sunday 24 hours</b>
         </p><br><br>
@@ -489,8 +489,8 @@
 				</tr>
 				<tr bgcolor="#252525">
 					<td class="widget">
-						<p class="text">Wheelzonrent is one of the reputed Travel<br>
-						Company in India.At Wheelzonrent<br>
+						<p class="text">Safar Rentals is one of the reputed Travel<br>
+						Company in India.At Safar Rentals<br>
 						everything we do is about giving you the<br>
 						freedom to discover more.</p>
 					</td>

@@ -2,7 +2,7 @@
 	<head>
 		<title>Terms and Conditions</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel = "icon" type = "image/png" href = "images/wheelzonrent-logo.png">
+		<link rel = "icon" type = "image/png" href = "images/safar-rentals-logo.png">
 		<link rel="stylesheet" href="poppins.css" type="text/css" media="all">
 		<link rel="stylesheet" href="montserrat.css" type="text/css" media="all">
 		<style>
@@ -394,12 +394,12 @@
 	<body>
 		<header>
 			<div class="up" id="up">
-			<div class="logo"><img  src="images/wheelzonrent-logo.png" height="100%" width="10%%" style="float:left;margin:-1.2% 0 0 6.5%;">
+			<div class="logo"><img  src="images/safar-rentals-logo.png" height="100%" width="10%%" style="float:left;margin:-1.2% 0 0 6.5%;">
 				<img height="25%" width="1.6%" src="images/phone.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;+91-7305010188&emsp;</font>
-				<img height="21%" width="1.9%" src="images/message.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;Info@wheelzonrent.in</font></div>
-				<div class="logo1"><center><img  src="images/wheelzonrent-logo.png" height="50%" width="30%"></center>
+				<img height="21%" width="1.9%" src="images/message.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;Info@safarrentals.in</font></div>
+				<div class="logo1"><center><img  src="images/safar-rentals-logo.png" height="50%" width="30%"></center>
 					<div class="call"><img height="25%" width="2.5%" src="images/phone.png" style="height:auto;"><font>+91-7305010188&emsp;</font></div>
-					<div class="mail"><img height="21%" width="2.5%" src="images/message.png" style="height:auto;"><font>&ensp;Info@wheelzonrent.in</font></div></div>
+					<div class="mail"><img height="21%" width="2.5%" src="images/message.png" style="height:auto;"><font>&ensp;Info@safarrentals.in</font></div></div>
 				<nav>
 					<ul>
 						<li><a class="navi" href="index.php">Home</a></li>
@@ -467,16 +467,16 @@
 		<ol style="margin:3% 0 3% 3%;list-style-type: decimal;color: #808080;">
 			<li>30% of total booking amount should be given in advance as a booking confirmation.</li>
 			<li>In case of cancellation, No Refund.</li>
-			<li>The customer agrees and accept that the use of the services given by wheelzonrent is at the sole risk of the 
+			<li>The customer agrees and accept that the use of the services given by Safar Rentals is at the sole risk of the 
 			customer.i.e In case of any happening throughout the journey company will not be liable for that.</li>
 			<li>Customer need to carry their original ID proofs during the booking period.</li>
 			<li>Soiling and damaging the seats and any other interior of the vehicle, charges will be given by the customer for that.</li>
 			<li>Asking the chauffeur to break any traffic/RTO or government rule for any purpose (especially reaching the destination earlier) then the driver has the rights to refuse such these types of requests.</li>
 			<li>The trip will be done accordingly to your mentioned itinerary. If you want to visit some other locations so the customer has to pay additionally.</li>
-			<li>By any chance, if your flight or train or bus misses wheelzonrent will not be liable for that.</li>
+			<li>By any chance, if your flight or train or bus misses Safar Rentals will not be liable for that.</li>
 		</ol>
 		<p style="margin:5% 0 5% 2%;">The above-mentioned terms and conditions of use and the Privacy Policy constitute the entire agreement between the 
-		User(s) and Wheelzonrent with respect to access to and use of the website and the Services offered by Wheelzonrent, 
+		User(s) and Safar Rentals with respect to access to and use of the website and the Services offered by Safar Rentals, 
 		superseding any prior written or oral agreements in relation to the same subject matter herein.</p>
 		<footer>
 			<img class="service" src="images/service.jpg">
