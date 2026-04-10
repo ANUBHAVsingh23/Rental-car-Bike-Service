@@ -1,9 +1,4 @@
 <?php
-/*
- * Centralized MySQL connection for the project.
- * Update these values once and all pages using this file will pick them up.
- */
-
 if (!function_exists('get_db_connection')) {
     function get_db_connection()
     {

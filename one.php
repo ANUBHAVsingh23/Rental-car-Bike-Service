@@ -547,7 +547,7 @@
 					</td>
 				</tr>
 				<tr bgcolor="black">
-					<td class="copyright" colspan="2"><font>Copyright 2026 All Right Reserved</font></td>
+					<td class="copyright" colspan="2"><font>Copyright 2026 @All Right Reserved</font></td>
 				</tr>
 			</table>
 		</footer>
