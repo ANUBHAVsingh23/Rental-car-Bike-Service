@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Bikes</title> 
-		<link rel = "icon" type = "image/png" href = "images/safar-rentals-logo.png">
+		<link rel = "icon" type = "image/png" href = "images/SfExpress.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="poppins.css" type="text/css" media="all">
 		<link rel="stylesheet" href="montserrat.css" type="text/css" media="all">
@@ -381,10 +381,10 @@
 	<body>
 		<header>
 			<div class="up" id="up">
-			<div class="logo"><img  src="images/safar-rentals-logo.png" height="100%" width="10%%" style="float:left;margin:-1.2% 0 0 6.5%;">
+			<div class="logo"><img src="images/SfExpress.png" height="100%" width="9.7%" style="float:left;margin:-1.2% 0 0 6.5%;">
 				<img height="25%" width="1.6%" src="images/phone.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;+91-7380718141&emsp;</font>
 				<img height="21%" width="1.9%" src="images/message.png" style="height:auto;"><font style="font-size:1.254vw;">&ensp;singh.anubhav3945@gmail.com</font></div>
-				<div class="logo1"><center><img  src="images/safar-rentals-logo.png" height="50%" width="30%"></center>
+				<div class="logo1"><center><img  src="images/SfExpress.png" height="50%" width="30%"></center>
 					<div class="call"><img height="25%" width="2.5%" src="images/phone.png" style="height:auto;"><font>+91-7380718141&emsp;</font></div>
 					<div class="mail"><img height="21%" width="2.5%" src="images/message.png" style="height:auto;"><font>&ensp;singh.anubhav3945@gmail.com</font></div></div>
 				<nav>
