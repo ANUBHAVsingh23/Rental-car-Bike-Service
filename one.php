@@ -473,7 +473,7 @@
         <br><br>
         Contact
         <br><br><b>
-        Phone Number:<font color="#00afe5"> +91</font> 8384066726
+        Phone Number:<font color="#00afe5"> +91</font> 7380718141
         <br><br>
         Email Address:<font color="#00afe5"> info@safarrentals.in</font>
         <br><br>
