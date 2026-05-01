@@ -115,6 +115,14 @@
 3. Configure database connection in PHP files as needed
 4. Access via `http://localhost/phpproject/index.php`
 
+### Default Login Credentials
+After importing `wheelzonrent_database.sql`, use the seeded admin account below to sign in:
+
+- **Email:** admin@safar.com
+- **Password:** Admin@12345
+
+After a successful login, the site redirects to `index.php`.
+
 ---
 
 ## Browser Compatibility

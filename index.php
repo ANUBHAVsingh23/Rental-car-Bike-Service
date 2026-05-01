@@ -1,6 +1,12 @@
+<?php
+require_once __DIR__ . '/auth.php';
+$authLinkHref = auth_is_logged_in() ? 'logout.php' : 'login.php';
+$authLinkLabel = auth_is_logged_in() ? 'Logout' : 'Login';
+?>
+
 <html>
 	<head>
-		<title>Home Page</title> 
+		<title>Home | Safar Rentals</title> 
 		<link rel = "icon" type = "image/png" href = "images/SfExpress.png">
 		<link rel="stylesheet" href="poppins.css" type="text/css" media="all">
 		<link rel="stylesheet" href="montserrat.css" type="text/css" media="all">
@@ -435,6 +441,7 @@
 					<li><a class="navi" href="contact.php">Contact Us</a></li>
 					<li><a class="navi" href="terms.php">Terms</a></li>
 					<li><a class="navi" href="feedback.php">Feedback</a></li>
+					<li><a class="navi" href="<?php echo htmlspecialchars($authLinkHref, ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($authLinkLabel, ENT_QUOTES, 'UTF-8'); ?></a></li>
 				</ul>
 			</nav>
 		</div>
@@ -499,7 +506,7 @@
 		<div>
 		<h1 style="font-size:2vw;color:#292929;margin:3% 0 0 28%;">&lt;</h1>
 		<hr align="left" width="9%" color="#dddddd" style="margin:-1.3% 0 0 32%;">
-		<h1 style="font-size:2vw;color:#292929;text-align:center;margin:-1.3% 0 0 0;">OUR FLEET</h1>
+		<h1 style="font-size:2vw;color:#292929;text-align:center;margin:-1.3% 0 0 0;">OUR VEHICLES</h1>
 		<hr align="left" width="9%" color="#dddddd" style="margin:-1.3% 0 0 59%;">
 		<h1 style="font-size:2vw;color:#292929;margin:-1.3% 0 0 71%">&gt;</h1>
 		</div>	
@@ -552,19 +559,19 @@
 		<table class="tabl2" bgcolor="#00afe5" height="100px">
 			<tr>
 				<td>
-					<h2 style="font-size:2vw;color:white;text-align:center;float:right;margin:auto;">WHAT ABOUT PRICING?</h2>
+					<h2 style="font-size:2vw;color:white;text-align:center;float:right;margin:auto;">LOOKING AT PRICING?</h2>
 				</td>
 				<td>
-					<h3 style="font-size:1vw;color:white;text-align:center;float:left;margin:auto;">&emsp;&emsp;Dont worry. We provide very nice deals and the most competative price just for you!</h3>
+					<h3 style="font-size:1vw;color:white;text-align:center;float:left;margin:auto;">&emsp;&emsp;No worries. We offer great deals and highly competitive prices tailored for you.</h3>
 				</td>
 			</tr>
 		</table>
 		<a id="service">
 		<div class="servtext">
 				<hr align="left" width="8.5%" size="2%" color="#dddddd" style="margin:2% 0 0 29%;position:relative;">
-				<h1 style="font-size:1.7vw;color:white;text-align:center;margin:-1.4% 0 0 0;">OUR SERVICES</h1>
+				<h1 style="font-size:1.7vw;color:white;text-align:center;margin:-1.4% 0 0 0;">SERVICES WE OFFER</h1>
 				<hr align="left" width="8.5%" size="2%" color="#dddddd" style="margin:-1.4% 0 0 62.3%;"><br>
-				<h3 style="font-size:0.9vw;color:white;text-align:center;margin-top:2%;">"To travel is to take a journey into yourself and Be a 'Story Teller' for generations"</h3>
+				<h3 style="font-size:0.9vw;color:white;text-align:center;margin-top:2%;">"Travel is a journey within, and every trip becomes a story worth sharing."</h3>
 		</div>
 		<br><br>
 		<div style="margin-top:5%;">
@@ -572,77 +579,63 @@
 				<tr>
 					<td>
 						<img src="images/carp.png" style="float:left;" style="height:auto;"><h1 style="font-size:1.4vw;color:black;">CAR RENTAL SERVICE</h1>
-						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Safar Rentals offers to make it easy for clients to get the right car at
-							 the right price at the right time. If you are looking for car rental service in Delhi/India or minibusses hire 
-							 services, then our company is the right option for you. Get the best deal on booking of luxury car and coaches in Delhi.</h3>
-						<a href="rental.php"  style="text-decoration:none;"><h3 class="readmore">READ MORE</h3></a>
+						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Safar Rentals makes it simple to find the right car at the right price, exactly when you need it. If you are looking for car rental services in Delhi or India, our team is ready to help with reliable cars and minibuses.</h3>
+						<a href="rental.php"  style="text-decoration:none;"><h3 class="readmore">LEARN MORE</h3></a>
 					</td>
 					<td>
 						<img src="images/busi.png" style="float:left;"><h1 style="font-size:1.4vw;color:black;">CORPORATE CAR RENTAL</h1>
-						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Our planning, communication and tracking support, make us accessible to you whenever and 
-							wherever you require. Our proprietary planning methodology and our custom-designed and engineered fleet management system gives 
-							us a competitive edge in the industry.</h3>
-						<a href="corporate.php" style="text-decoration:none;"><h3 class="readmore">READ MORE</h3></a>
+						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">With careful planning, clear communication, and tracking support, we stay ready whenever and wherever your business needs us. Our fleet management approach is designed to keep corporate travel smooth and dependable.</h3>
+						<a href="corporate.php" style="text-decoration:none;"><h3 class="readmore">LEARN MORE</h3></a>
 					</td>
 					<td>
 						<img src="images/marriage.png" style="float:left;"><h1 style="font-size:1.4vw;color:black;">WEDDING CAR RENTAL</h1>
-						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Safar Rentals is emerging car rental company in delhi/india . We have been known in industry 
-							for our 100% customer satisfaction. We think for a special occasion we need the right car at right prices, Safar Rentals provides 
-							the best car accordingly the customer requirement.</h3>
-						<a href="wed.php" style="text-decoration:none;"><h3 class="readmore">READ MORE</h3></a>
+						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Safar Rentals helps make special occasions memorable with the right vehicle at the right price. For weddings and celebrations, we provide cars that match the event and the customer’s needs.</h3>
+						<a href="wed.php" style="text-decoration:none;"><h3 class="readmore">LEARN MORE</h3></a>
 					</td>
 				</tr>
 				<tr>
 					<td>
 						<img src="images/event.png" style="float:left;"><h1 style="font-size:1.4vw;color:black;">EVENT TRANSPORTATION</h1>
-						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">While customer is traveling with us we care the all needs of our clients. We offer
-							 well-maintained cars with Professionally Trained Chauffeurs to Corporate at suitable rates on premium and luxury car rental 
-							 choices. Online Booking and Book-keeping for better management.</h3>
-						 <a href="event.php" style="text-decoration:none;"><h3 class="readmore">READ MORE</h3></a>
+						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">We look after every travel detail so your event runs smoothly. From premium cars to professional chauffeurs, we provide dependable transport options for corporate and private events.</h3>
+						 <a href="event.php" style="text-decoration:none;"><h3 class="readmore">LEARN MORE</h3></a>
 					</td>
 					<td>
-						<img src="images/self.png" style="float:left;"><h1 style="font-size:1.4vw;color:black;">SELFDRIVE CAR RENTAL</h1>
-						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Safar Rentals is a very customer friendly company where customer service and
-							 satisfaction come first. Safar Rentals provides self-driven cars to customers at very convenient prices and gives 
-							 absolutely new and young well-maintained fleet for hassle-free and memorable driving experience.</h3>
-						<a href="self.php" style="text-decoration:none;"><h3 class="readmore">READ MORE</h3></a>
+						<img src="images/self.png" style="float:left;"><h1 style="font-size:1.4vw;color:black;">SELF-DRIVE CAR RENTAL</h1>
+						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">We put customer service first and keep our self-drive options convenient, reliable, and affordable. Enjoy a well-maintained fleet for a smooth and memorable driving experience.</h3>
+						<a href="self.php" style="text-decoration:none;"><h3 class="readmore">LEARN MORE</h3></a>
 					</td>
 					<td>
 						<img src="images/one.png" style="float:left;"><h1 style="font-size:1.4vw;color:black;">ONE WAY DROP SERVICE</h1>
-						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Safar Rentals is providing One Way Drop Services From Delhi / NCR. We offer 
-							to make it easy for clients to get the right car at the right price at the right time. If you are looking for 
-							car rental service in Delhi/India, we are the right choice for you.</h3>
-						<a href="one.php" style="text-decoration:none;"><h3 class="readmore">READ MORE</h3></a>
+						<h3 style="color:grey;font-size:0.9vw;margin-left:45px;text-align:left;">Our one-way drop service is designed to make travel easier, faster, and more cost-effective. If you need a dependable car rental option in Delhi or India, we are ready to help.</h3>
+						<a href="one.php" style="text-decoration:none;"><h3 class="readmore">LEARN MORE</h3></a>
 					</td>
 				</tr>
 			</table>
 		</div>
 		<div class="context">
-			<h1 style="color:white;font-size:2vw;text-align:left;">WE PROMISE, YOU WILL<br> 
-					HAVE THE BEST EXPERIENCE</h1>
-			<h3 style="color:white;font-size:1vw;text-align:left;">Quality is never an accident, it is always the result of high intention,
-					 sincere effort,<br> intelligent direction, and skillful execution.</h3>
+			<h1 style="color:white;font-size:2vw;text-align:left;">WE PROMISE A MEMORABLE<br> 
+					EXPERIENCE</h1>
+			<h3 style="color:white;font-size:1vw;text-align:left;">Great service comes from thoughtful planning, genuine effort, and careful execution.<br> We aim to make every journey smooth and enjoyable.</h3>
 				<a href="contact.php"><button><h1 style="color:white;font-size:1vw;margin:10px 10px 10px 10px">Enquire Now</h1></button></a>
 		</div>
         <footer>
 			<table style="height:10%;">
 				<tr bgcolor="#252525">
 					<td class="widget"> 
-						<h3>About Us</h3>
+						<h3>About Safar Rentals</h3>
 					</td>
 					<td class="widget">
-						<h3>Contact Info</h3>
+						<h3>Get in Touch</h3>
 					</td>
 				</tr>
 				<tr bgcolor="#252525">
 					<td class="widget">
-						<p class="text">Safar Rentals is one of the reputed Travel<br>
-						Company in India.At Safar Rentals<br>
-						everything we do is about giving you the<br>
-						freedom to discover more.</p>
+						<p class="text">Safar Rentals is a trusted travel partner in India.<br>
+						We focus on giving you the freedom to travel<br>
+						comfortably, confidently, and on your terms.</p>
 					</td>
 					<td class="widget">
-						<p class="text1">Address: Punjab ,LPU<br>
+						<p class="text1">Address: Punjab, LPU<br>
 						<img src="images/phone.png">&emsp;+91-7380718141<br>
 						<img src="images/message.png">&emsp;singh.anubhav3945@gmail.com</p>
 					</td>
